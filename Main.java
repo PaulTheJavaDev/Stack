@@ -27,7 +27,16 @@ public class Main {
         apps.push("Intellij IDEA");
         apps.push("Discord");
 
-    
+        System.out.println("The last item of the Stack is: " + apps.peek()); //returns the last value of the stack
+        System.out.println("Deleted the last item: " + apps.pop()); //returns the last item of the stack that is removed
+
+        //checking if the stack still contains "Discord"
+        //if position is -1 then it's non-existent
+        System.out.println("Position of the searched item:" + apps.search("Discord"));
+        System.out.println("Is the Stack empty: " + apps.empty()); //checks if the stack is empty
+
+        System.out.println("Added Games to the Stack: " + apps.addAll(games)); //adds the ArrayList to the Stack
+        System.out.println(apps);
         
     }
 
