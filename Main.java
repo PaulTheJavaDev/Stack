@@ -18,11 +18,13 @@ public class Main {
         // 3. backtracking algorithms (maze, file directories)
         // 4. calling functions (call stack)
 
+        //defining an ArrayList for .addAll Method
         ArrayList<String> games = new ArrayList<>();
         games.add("Minecraft");
         games.add("DOOM");
         games.add("Mario Party"); //Nintendo pls don't copyright me
 
+        //adding different apps to the Stack
         Stack<String> apps = new Stack<>();
         apps.push("Minecraft");
         apps.push("Roblox");
